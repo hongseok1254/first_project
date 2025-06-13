@@ -1,8 +1,8 @@
 /* 전역 스타일 */
 :root {
-    --primary-color: #004B87;
-    --secondary-color: #00A0E9;
-    --accent-color: #FFB800;
+    --primary-color: #004b87;
+    --secondary-color: #00a0e9;
+    --accent-color: #ffb800;
     --text-color: #333;
     --light-gray: #f5f5f5;
     --dark-gray: #666;
@@ -23,7 +23,7 @@ body {
 /* 헤더 및 네비게이션 */
 header {
     background: white;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     position: fixed;
     width: 100%;
     top: 0;
@@ -65,7 +65,7 @@ header {
     position: absolute;
     background: white;
     min-width: 200px;
-    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
     border-radius: 4px;
     padding: 0.5rem 0;
 }
@@ -143,7 +143,7 @@ header {
     background: white;
     border-radius: 8px;
     overflow: hidden;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
 }
 
@@ -198,7 +198,7 @@ header {
     background: white;
     padding: 2rem;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
 .notice h3 {
@@ -259,7 +259,7 @@ footer {
 }
 
 .copyright {
-    border-top: 1px solid rgba(255,255,255,0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
     padding-top: 1rem;
     margin-top: 2rem;
 }
@@ -274,7 +274,7 @@ footer {
         width: 100%;
         background: white;
         padding: 1rem;
-        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     }
 
     .nav-links.active {
@@ -302,4 +302,4 @@ footer {
     .business-grid {
         grid-template-columns: 1fr;
     }
-} 
+}
